@@ -5,7 +5,7 @@ It is a case study of naive Bayes estimation when I read a textbook about static
 
 This repository aims at providing reader a more practical and intuitive way to learn naive Bayes, by providing the visualization of joint probability. 
 
-![](https://https://github.com/liubai01/Numpy-based-Naive-Bayes/tree/master/img/joint_distribution.png)
+![](https://github.com/liubai01/Numpy-based-Naive-Bayes/blob/master/img/joint_distribution.png)
 
 The implementation bases the task of predicting whether a person is smoke or not. The dataset is provided by the book 'Machine Learning with R' on [Kaggle](https://www.kaggle.com/mirichoi0218/insurance).  My implementation shows the test accuracy 0.92 and shows the main factor of a person smoke or not is the individual medical costs.
 
