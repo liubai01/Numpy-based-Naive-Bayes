@@ -25,7 +25,7 @@ All we get is 1,338 entires.  You can get more detailed information on Kaggle  [
 
 
 
-![](https://github.com/liubai01/Numpy-based-Naive-Bayes/blob/master/img/age_dist.png)The recommended task on Kaggle is to estimate the individual medical costs. [One popular kernel](https://www.kaggle.com/grosvenpaul/regression-eda-and-statistics-tutorial) shows that whether smoke or not is an important feature to estimate the cost. Then, here is my question:
+![plot of the distribution of the dataset](https://github.com/liubai01/Numpy-based-Naive-Bayes/blob/master/img/dataset_dist.png)The recommended task on Kaggle is to estimate the individual medical costs. [One popular kernel](https://www.kaggle.com/grosvenpaul/regression-eda-and-statistics-tutorial) shows that whether smoke or not is an important feature to estimate the cost. Then, here is my question:
 
 Is it possible to estimate a person is a smoker or not with the help of other variables?
 
