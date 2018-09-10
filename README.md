@@ -7,11 +7,11 @@ This repository aims at providing reader a more practical and intuitive way to l
 
 ![](https://github.com/liubai01/Numpy-based-Naive-Bayes/blob/master/img/joint_distribution.png)
 
-The implementation bases the task of predicting whether a person is smoke or not. The dataset is provided by the book 'Machine Learning with R' on [Kaggle](https://www.kaggle.com/mirichoi0218/insurance).  My implementation shows the test accuracy 0.92 and shows the main factor of a person smoke or not is the individual medical costs.
+The implementation bases the task of predicting whether a person is smoke or not. The dataset is provided by the book 'Machine Learning with R' on Kaggle [[Download Link]](https://www.kaggle.com/mirichoi0218/insurance).  My implementation shows the test accuracy 0.92 and shows the main factor of a person smoke or not is the individual medical costs.
 
 ### Introduction to dataset&task
 
-All we get is 1,338 entires.  You can get more detailed information on [Kaggle](https://www.kaggle.com/mirichoi0218/insurance).
+All we get is 1,338 entires.  You can get more detailed information on Kaggle  [[Download Link]](https://www.kaggle.com/mirichoi0218/insurance).
 
 **Columns**:
 
@@ -23,7 +23,9 @@ All we get is 1,338 entires.  You can get more detailed information on [Kaggle](
 - region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest.
 - charges: Individual medical costs billed by health insurance
 
-The recommended task on Kaggle is to estimate the individual medical costs. [One popular kernel](https://www.kaggle.com/grosvenpaul/regression-eda-and-statistics-tutorial) shows that smoke or not is an important feature to estimate the cost. Then, here is my question:
+
+
+![](https://github.com/liubai01/Numpy-based-Naive-Bayes/blob/master/img/age_dist.png)The recommended task on Kaggle is to estimate the individual medical costs. [One popular kernel](https://www.kaggle.com/grosvenpaul/regression-eda-and-statistics-tutorial) shows that whether smoke or not is an important feature to estimate the cost. Then, here is my question:
 
 Is it possible to estimate a person is a smoker or not with the help of other variables?
 
@@ -45,7 +47,7 @@ git clone https://github.com/liubai01/Numpy-based-Naive-Bayes.git
 cd Numpy-based-Naive-Bayes/
 ```
 
-2. Download dataset from [Kaggle](https://www.kaggle.com/mirichoi0218/insurance), extract the `insurance.csv` to the path `./data/`
+2. Download dataset from Kaggle [[Download Link]](https://www.kaggle.com/mirichoi0218/insurance), extract the `insurance.csv` to the path `./data/`
 3. Run the demo.
 
 ```shell
@@ -92,4 +94,4 @@ Tree structure of critical files in repository and corresponding steps(mentioned
 
 ### Summary
 
-Any suggestion or advice is welcome. A Jupyternote book will be on-line recently(in Chinese).
+Any suggestion or advice is welcome. A Jupyter notebook will be on-line recently(in Chinese).
